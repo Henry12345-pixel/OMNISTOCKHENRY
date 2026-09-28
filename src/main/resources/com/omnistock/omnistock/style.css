@@ -1,0 +1,141 @@
+.root {
+    -fx-background-color: transparent;
+}
+
+.page-root {
+    -fx-background-color: transparent;
+}
+
+/* ===================== THE CARD ===================== */
+
+.login-card {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 30, 0, 0, 10);
+}
+
+/* ===================== CLOSE BUTTON ===================== */
+
+.close-button {
+    -fx-background-color: rgba(60, 60, 62, 0.85);
+    -fx-background-radius: 999;
+    -fx-text-fill: #d7d8dc;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-min-width: 28;
+    -fx-min-height: 28;
+    -fx-max-width: 28;
+    -fx-max-height: 28;
+    -fx-cursor: hand;
+}
+
+.close-button:hover {
+    -fx-background-color: #c0392b;
+    -fx-text-fill: white;
+}
+
+/* ===================== LEFT BRANDING PANEL ===================== */
+
+.brand-panel {
+    -fx-background-color: linear-gradient(to bottom right, #dcefe2, #f5eed2);
+    -fx-background-radius: 20 0 0 20;
+}
+
+.decor-circle {
+    -fx-fill: rgba(255, 255, 255, 0.35);
+}
+
+.logo-badge {
+    -fx-background-color: #1c231d;
+    -fx-background-radius: 8;
+}
+
+.brand-title {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1c231d;
+}
+
+.hero-heading {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1c231d;
+}
+
+.hero-subtext {
+    -fx-font-size: 12px;
+    -fx-text-fill: #4c574c;
+}
+
+/* ===================== RIGHT LOGIN FORM PANEL ===================== */
+
+.form-panel {
+    -fx-background-color: #1c1c1e;
+    -fx-background-radius: 0 20 20 0;
+}
+
+.role-toggle-container {
+    -fx-background-color: #2a2a2d;
+    -fx-background-radius: 999;
+    -fx-padding: 3;
+}
+
+.role-toggle {
+    -fx-background-color: transparent;
+    -fx-background-radius: 999;
+    -fx-text-fill: #9a9ba0;
+    -fx-font-size: 12px;
+    -fx-font-weight: 600;
+    -fx-padding: 8 0 8 0;
+    -fx-cursor: hand;
+}
+
+.role-toggle:selected {
+    -fx-background-color: #f4f2e9;
+    -fx-text-fill: #1c1d1f;
+}
+
+.welcome-heading {
+    -fx-font-size: 19px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f4f2e9;
+}
+
+.welcome-subtext {
+    -fx-font-size: 11px;
+    -fx-text-fill: #9a9ba0;
+}
+
+.field-label {
+    -fx-font-size: 11px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #c7c8cc;
+}
+
+.text-input {
+    -fx-background-color: #2a2a2d;
+    -fx-background-radius: 6;
+    -fx-text-fill: #f4f2e9;
+    -fx-prompt-text-fill: #6c6d72;
+    -fx-font-size: 12px;
+    -fx-padding: 9 10 9 10;
+    -fx-border-color: transparent;
+}
+
+.text-input:focused {
+    -fx-border-color: #5a9c7f;
+    -fx-border-width: 1;
+    -fx-border-radius: 6;
+}
+
+.login-button {
+    -fx-background-color: #5a9c7f;
+    -fx-background-radius: 6;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 11 0 11 0;
+    -fx-cursor: hand;
+}
+
+.login-button:hover {
+    -fx-background-color: #4d8c70;
+}
